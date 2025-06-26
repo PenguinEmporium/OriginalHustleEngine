@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6791c48c7ee0c4193939f53370436a, type: 3}
+  m_Name: Start-FirstEntry
+  m_EditorClassIdentifier: 
+  segments:
+  - fallBackTimer: 0
+    cutsceneTimeline: {fileID: 11400000, guid: ea917a19c291c84419c6f341a1aa3818, type: 2}
+    talkingTarget: {fileID: 11400000, guid: 2fdfd264f9d18ad4d9750fcd3c9672a1, type: 2}
+    dialogueTrack: {fileID: 0}
+    isDialoguePresent: 0
+    isAudioPresent: 0
+    dialogueTag: 
+    dialogueText: 
+  length: 0
+  currentlyLoadedLanguage:
+    LanguageName: 
+    percentComplete: 
+    colInFile: 0

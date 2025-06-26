@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6791c48c7ee0c4193939f53370436a, type: 3}
+  m_Name: TestCutsceneSegment
+  m_EditorClassIdentifier: 
+  segments:
+  - fallBackTimer: 2
+    cutsceneTimeline: {fileID: 11400000, guid: 4251fc8c37d92104789f40b945912615, type: 2}
+    talkingTarget: {fileID: 11400000, guid: 7c35c5649e194a04aabff9fb3d23da74, type: 2}
+    dialogueTrack: {fileID: 8300000, guid: 630f5de6434130e4d970e503bf7e0fec, type: 3}
+    isDialoguePresent: 0
+    isAudioPresent: 0
+    dialogueTag: test01
+    dialogueText: "\u3053\u306B\u3061\u306F\uFF01\u304A\u5143\u6C17\u3067\u3059\u304B\r"
+  - fallBackTimer: 2
+    cutsceneTimeline: {fileID: 11400000, guid: 2a7fb4638df13b847acbb590257f7810, type: 2}
+    talkingTarget: {fileID: 11400000, guid: 2fdfd264f9d18ad4d9750fcd3c9672a1, type: 2}
+    dialogueTrack: {fileID: 8300000, guid: 9c990f3819eac584e9864cf77999c631, type: 3}
+    isDialoguePresent: 0
+    isAudioPresent: 0
+    dialogueTag: test02
+    dialogueText: "\u307E\u3042\u307E\u3042\u3067\u3059"
+  length: 0
+  currentlyLoadedLanguage:
+    LanguageName: "Japanese\r"
+    percentComplete: "100%\r"
+    colInFile: 3
